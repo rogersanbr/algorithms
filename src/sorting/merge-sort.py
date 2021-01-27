@@ -32,7 +32,7 @@ def merge(l, r):
 
 
 if __name__ == '__main__':
-    print("Digit list of numbers separated by space: ")
+    print("Type a list of numbers separated by space: ")
     arr = list(map(int, input().split()))
 
     sorted = merge_sort(arr)
